@@ -13,9 +13,31 @@
 		6B1A45371CCCAB55002BC53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1A45351CCCAB55002BC53A /* Main.storyboard */; };
 		6B1A45391CCCAB55002BC53A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1A45381CCCAB55002BC53A /* Assets.xcassets */; };
 		6B1A453C1CCCAB55002BC53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1A453A1CCCAB55002BC53A /* LaunchScreen.storyboard */; };
+		6B1A454A1CCCAB8A002BC53A /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B1A45461CCCAB8A002BC53A /* LICENSE.txt */; };
+		6B1A454B1CCCAB8A002BC53A /* NOTICE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B1A45471CCCAB8A002BC53A /* NOTICE.txt */; };
+		6B1A454C1CCCAB8A002BC53A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A45481CCCAB8A002BC53A /* README.md */; };
+		6B1A454D1CCCAB8A002BC53A /* DS_ECreds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B1A45491CCCAB8A002BC53A /* DS_ECreds.plist */; };
+		6B1A45571CCCABD7002BC53A /* DSServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A45521CCCABD7002BC53A /* DSServiceManager.m */; };
+		6B1A45581CCCABD7002BC53A /* DSBaseLoggedService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A45541CCCABD7002BC53A /* DSBaseLoggedService.m */; };
+		6B1A45591CCCABD7002BC53A /* DSExternalJournalCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A45561CCCABD7002BC53A /* DSExternalJournalCloud.m */; };
+		6B1A455D1CCCABE1002BC53A /* DSJournal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A455C1CCCABE1002BC53A /* DSJournal.m */; };
+		6B1A45661CCCABF9002BC53A /* DSJournalXMLMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A45611CCCABF9002BC53A /* DSJournalXMLMapper.m */; };
+		6B1A45671CCCABF9002BC53A /* DSJournalJSONMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A45631CCCABF9002BC53A /* DSJournalJSONMapper.m */; };
+		6B1A45681CCCABF9002BC53A /* DSJournalStringDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A45651CCCABF9002BC53A /* DSJournalStringDescriptor.m */; };
+		6B1A456F1CCCAC22002BC53A /* DSOutputConsoleReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A456C1CCCAC22002BC53A /* DSOutputConsoleReporter.m */; };
+		6B1A45701CCCAC22002BC53A /* DSFileReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A456E1CCCAC22002BC53A /* DSFileReporter.m */; };
+		6B1A457B1CCCAC3D002BC53A /* DSEmailReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A45741CCCAC3D002BC53A /* DSEmailReporter.m */; };
+		6B1A457D1CCCAC3D002BC53A /* NSString+DSEmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A45781CCCAC3D002BC53A /* NSString+DSEmailValidation.m */; };
+		6B1A457E1CCCAC3D002BC53A /* UIWindow+DSControllerDetermination.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A457A1CCCAC3D002BC53A /* UIWindow+DSControllerDetermination.m */; };
+		6B1A45831CCCAC45002BC53A /* DSRemoteTelnetReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A45801CCCAC45002BC53A /* DSRemoteTelnetReporter.m */; };
+		6B1A45841CCCAC45002BC53A /* DSNetworkReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A45821CCCAC45002BC53A /* DSNetworkReporter.m */; };
+		B0884F3488EC8DCC01FC2A95 /* Pods_ReporterProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F16639553D8DFCEDEF5D44E /* Pods_ReporterProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CC638E1CD6374851AFBF1EF /* Pods-ReporterProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReporterProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReporterProject/Pods-ReporterProject.debug.xcconfig"; sourceTree = "<group>"; };
+		2F16639553D8DFCEDEF5D44E /* Pods_ReporterProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReporterProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7F98BEB7A162F1C8CAF796 /* Pods-ReporterProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReporterProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReporterProject/Pods-ReporterProject.release.xcconfig"; sourceTree = "<group>"; };
 		6B1A45291CCCAB54002BC53A /* ReporterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReporterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1A452D1CCCAB55002BC53A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B1A452F1CCCAB55002BC53A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +48,46 @@
 		6B1A45381CCCAB55002BC53A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B1A453B1CCCAB55002BC53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B1A453D1CCCAB55002BC53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1A45441CCCAB8A002BC53A /* DSIdeaHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSIdeaHeader.h; sourceTree = "<group>"; };
+		6B1A45451CCCAB8A002BC53A /* DeepStorm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepStorm.h; sourceTree = "<group>"; };
+		6B1A45461CCCAB8A002BC53A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		6B1A45471CCCAB8A002BC53A /* NOTICE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICE.txt; sourceTree = "<group>"; };
+		6B1A45481CCCAB8A002BC53A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6B1A45491CCCAB8A002BC53A /* DS_ECreds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DS_ECreds.plist; sourceTree = "<group>"; };
+		6B1A45511CCCABD7002BC53A /* DSServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSServiceManager.h; sourceTree = "<group>"; };
+		6B1A45521CCCABD7002BC53A /* DSServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSServiceManager.m; sourceTree = "<group>"; };
+		6B1A45531CCCABD7002BC53A /* DSBaseLoggedService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBaseLoggedService.h; sourceTree = "<group>"; };
+		6B1A45541CCCABD7002BC53A /* DSBaseLoggedService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBaseLoggedService.m; sourceTree = "<group>"; };
+		6B1A45551CCCABD7002BC53A /* DSExternalJournalCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSExternalJournalCloud.h; sourceTree = "<group>"; };
+		6B1A45561CCCABD7002BC53A /* DSExternalJournalCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSExternalJournalCloud.m; sourceTree = "<group>"; };
+		6B1A455A1CCCABE1002BC53A /* DSJournalDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJournalDefines.h; sourceTree = "<group>"; };
+		6B1A455B1CCCABE1002BC53A /* DSJournal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJournal.h; sourceTree = "<group>"; };
+		6B1A455C1CCCABE1002BC53A /* DSJournal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJournal.m; sourceTree = "<group>"; };
+		6B1A455F1CCCABF9002BC53A /* DSJournalMappingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJournalMappingProtocol.h; sourceTree = "<group>"; };
+		6B1A45601CCCABF9002BC53A /* DSJournalXMLMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJournalXMLMapper.h; sourceTree = "<group>"; };
+		6B1A45611CCCABF9002BC53A /* DSJournalXMLMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJournalXMLMapper.m; sourceTree = "<group>"; };
+		6B1A45621CCCABF9002BC53A /* DSJournalJSONMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJournalJSONMapper.h; sourceTree = "<group>"; };
+		6B1A45631CCCABF9002BC53A /* DSJournalJSONMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJournalJSONMapper.m; sourceTree = "<group>"; };
+		6B1A45641CCCABF9002BC53A /* DSJournalStringDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJournalStringDescriptor.h; sourceTree = "<group>"; };
+		6B1A45651CCCABF9002BC53A /* DSJournalStringDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJournalStringDescriptor.m; sourceTree = "<group>"; };
+		6B1A45691CCCAC12002BC53A /* DSReporting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSReporting.h; sourceTree = "<group>"; };
+		6B1A456B1CCCAC22002BC53A /* DSOutputConsoleReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSOutputConsoleReporter.h; sourceTree = "<group>"; };
+		6B1A456C1CCCAC22002BC53A /* DSOutputConsoleReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSOutputConsoleReporter.m; sourceTree = "<group>"; };
+		6B1A456D1CCCAC22002BC53A /* DSFileReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSFileReporter.h; sourceTree = "<group>"; };
+		6B1A456E1CCCAC22002BC53A /* DSFileReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSFileReporter.m; sourceTree = "<group>"; };
+		6B1A45721CCCAC3D002BC53A /* DSEmailReporterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSEmailReporterProtocol.h; sourceTree = "<group>"; };
+		6B1A45731CCCAC3D002BC53A /* DSEmailReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSEmailReporter.h; sourceTree = "<group>"; };
+		6B1A45741CCCAC3D002BC53A /* DSEmailReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSEmailReporter.m; sourceTree = "<group>"; };
+		6B1A45751CCCAC3D002BC53A /* DSEmailHiddenReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSEmailHiddenReporter.h; sourceTree = "<group>"; };
+		6B1A45761CCCAC3D002BC53A /* DSEmailHiddenReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSEmailHiddenReporter.m; sourceTree = "<group>"; };
+		6B1A45771CCCAC3D002BC53A /* NSString+DSEmailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DSEmailValidation.h"; sourceTree = "<group>"; };
+		6B1A45781CCCAC3D002BC53A /* NSString+DSEmailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DSEmailValidation.m"; sourceTree = "<group>"; };
+		6B1A45791CCCAC3D002BC53A /* UIWindow+DSControllerDetermination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+DSControllerDetermination.h"; sourceTree = "<group>"; };
+		6B1A457A1CCCAC3D002BC53A /* UIWindow+DSControllerDetermination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+DSControllerDetermination.m"; sourceTree = "<group>"; };
+		6B1A457F1CCCAC45002BC53A /* DSRemoteTelnetReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSRemoteTelnetReporter.h; sourceTree = "<group>"; };
+		6B1A45801CCCAC45002BC53A /* DSRemoteTelnetReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSRemoteTelnetReporter.m; sourceTree = "<group>"; };
+		6B1A45811CCCAC45002BC53A /* DSNetworkReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSNetworkReporter.h; sourceTree = "<group>"; };
+		6B1A45821CCCAC45002BC53A /* DSNetworkReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSNetworkReporter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0884F3488EC8DCC01FC2A95 /* Pods_ReporterProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +107,8 @@
 			children = (
 				6B1A452B1CCCAB55002BC53A /* ReporterProject */,
 				6B1A452A1CCCAB54002BC53A /* Products */,
+				CFB293A2FFDF5D2C9C051F7D /* Pods */,
+				E2C30ADF475A744958FAD4A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +127,7 @@
 				6B1A45301CCCAB55002BC53A /* AppDelegate.m */,
 				6B1A45321CCCAB55002BC53A /* ViewController.h */,
 				6B1A45331CCCAB55002BC53A /* ViewController.m */,
+				6B1A45431CCCAB7A002BC53A /* DeepStorm */,
 				6B1A45351CCCAB55002BC53A /* Main.storyboard */,
 				6B1A45381CCCAB55002BC53A /* Assets.xcassets */,
 				6B1A453A1CCCAB55002BC53A /* LaunchScreen.storyboard */,
@@ -79,6 +145,118 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6B1A45431CCCAB7A002BC53A /* DeepStorm */ = {
+			isa = PBXGroup;
+			children = (
+				6B1A45441CCCAB8A002BC53A /* DSIdeaHeader.h */,
+				6B1A45451CCCAB8A002BC53A /* DeepStorm.h */,
+				6B1A45461CCCAB8A002BC53A /* LICENSE.txt */,
+				6B1A45471CCCAB8A002BC53A /* NOTICE.txt */,
+				6B1A45481CCCAB8A002BC53A /* README.md */,
+				6B1A45491CCCAB8A002BC53A /* DS_ECreds.plist */,
+				6B1A454E1CCCAB9A002BC53A /* Top Level Abstractions */,
+				6B1A454F1CCCABB4002BC53A /* Journalling */,
+				6B1A45501CCCABBC002BC53A /* Reporting */,
+			);
+			name = DeepStorm;
+			sourceTree = "<group>";
+		};
+		6B1A454E1CCCAB9A002BC53A /* Top Level Abstractions */ = {
+			isa = PBXGroup;
+			children = (
+				6B1A45511CCCABD7002BC53A /* DSServiceManager.h */,
+				6B1A45521CCCABD7002BC53A /* DSServiceManager.m */,
+				6B1A45531CCCABD7002BC53A /* DSBaseLoggedService.h */,
+				6B1A45541CCCABD7002BC53A /* DSBaseLoggedService.m */,
+				6B1A45551CCCABD7002BC53A /* DSExternalJournalCloud.h */,
+				6B1A45561CCCABD7002BC53A /* DSExternalJournalCloud.m */,
+			);
+			name = "Top Level Abstractions";
+			sourceTree = "<group>";
+		};
+		6B1A454F1CCCABB4002BC53A /* Journalling */ = {
+			isa = PBXGroup;
+			children = (
+				6B1A455A1CCCABE1002BC53A /* DSJournalDefines.h */,
+				6B1A455B1CCCABE1002BC53A /* DSJournal.h */,
+				6B1A455C1CCCABE1002BC53A /* DSJournal.m */,
+				6B1A455E1CCCABE7002BC53A /* Object Mapping */,
+			);
+			name = Journalling;
+			sourceTree = "<group>";
+		};
+		6B1A45501CCCABBC002BC53A /* Reporting */ = {
+			isa = PBXGroup;
+			children = (
+				6B1A45691CCCAC12002BC53A /* DSReporting.h */,
+				6B1A456A1CCCAC15002BC53A /* Custom Reporters */,
+			);
+			name = Reporting;
+			sourceTree = "<group>";
+		};
+		6B1A455E1CCCABE7002BC53A /* Object Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				6B1A455F1CCCABF9002BC53A /* DSJournalMappingProtocol.h */,
+				6B1A45601CCCABF9002BC53A /* DSJournalXMLMapper.h */,
+				6B1A45611CCCABF9002BC53A /* DSJournalXMLMapper.m */,
+				6B1A45621CCCABF9002BC53A /* DSJournalJSONMapper.h */,
+				6B1A45631CCCABF9002BC53A /* DSJournalJSONMapper.m */,
+				6B1A45641CCCABF9002BC53A /* DSJournalStringDescriptor.h */,
+				6B1A45651CCCABF9002BC53A /* DSJournalStringDescriptor.m */,
+			);
+			name = "Object Mapping";
+			sourceTree = "<group>";
+		};
+		6B1A456A1CCCAC15002BC53A /* Custom Reporters */ = {
+			isa = PBXGroup;
+			children = (
+				6B1A456B1CCCAC22002BC53A /* DSOutputConsoleReporter.h */,
+				6B1A456C1CCCAC22002BC53A /* DSOutputConsoleReporter.m */,
+				6B1A456D1CCCAC22002BC53A /* DSFileReporter.h */,
+				6B1A456E1CCCAC22002BC53A /* DSFileReporter.m */,
+				6B1A457F1CCCAC45002BC53A /* DSRemoteTelnetReporter.h */,
+				6B1A45801CCCAC45002BC53A /* DSRemoteTelnetReporter.m */,
+				6B1A45811CCCAC45002BC53A /* DSNetworkReporter.h */,
+				6B1A45821CCCAC45002BC53A /* DSNetworkReporter.m */,
+				6B1A45711CCCAC29002BC53A /* Email Reporters */,
+			);
+			name = "Custom Reporters";
+			sourceTree = "<group>";
+		};
+		6B1A45711CCCAC29002BC53A /* Email Reporters */ = {
+			isa = PBXGroup;
+			children = (
+				6B1A45721CCCAC3D002BC53A /* DSEmailReporterProtocol.h */,
+				6B1A45731CCCAC3D002BC53A /* DSEmailReporter.h */,
+				6B1A45741CCCAC3D002BC53A /* DSEmailReporter.m */,
+				6B1A45751CCCAC3D002BC53A /* DSEmailHiddenReporter.h */,
+				6B1A45761CCCAC3D002BC53A /* DSEmailHiddenReporter.m */,
+				6B1A45771CCCAC3D002BC53A /* NSString+DSEmailValidation.h */,
+				6B1A45781CCCAC3D002BC53A /* NSString+DSEmailValidation.m */,
+				6B1A45791CCCAC3D002BC53A /* UIWindow+DSControllerDetermination.h */,
+				6B1A457A1CCCAC3D002BC53A /* UIWindow+DSControllerDetermination.m */,
+			);
+			name = "Email Reporters";
+			sourceTree = "<group>";
+		};
+		CFB293A2FFDF5D2C9C051F7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CC638E1CD6374851AFBF1EF /* Pods-ReporterProject.debug.xcconfig */,
+				4B7F98BEB7A162F1C8CAF796 /* Pods-ReporterProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2C30ADF475A744958FAD4A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F16639553D8DFCEDEF5D44E /* Pods_ReporterProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +264,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B1A45401CCCAB55002BC53A /* Build configuration list for PBXNativeTarget "ReporterProject" */;
 			buildPhases = (
+				6E8CE19CC6CDA0E443682D19 /* Check Pods Manifest.lock */,
 				6B1A45251CCCAB54002BC53A /* Sources */,
 				6B1A45261CCCAB54002BC53A /* Frameworks */,
 				6B1A45271CCCAB54002BC53A /* Resources */,
+				E3184095AB3B0E0C1A5DF6C5 /* Embed Pods Frameworks */,
+				A3FE11F5AE486EFB4B34EB23 /* Copy Pods Resources */,
+				6B1A45851CCCAD86002BC53A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -137,6 +319,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1A454B1CCCAB8A002BC53A /* NOTICE.txt in Resources */,
+				6B1A454D1CCCAB8A002BC53A /* DS_ECreds.plist in Resources */,
+				6B1A454A1CCCAB8A002BC53A /* LICENSE.txt in Resources */,
 				6B1A453C1CCCAB55002BC53A /* LaunchScreen.storyboard in Resources */,
 				6B1A45391CCCAB55002BC53A /* Assets.xcassets in Resources */,
 				6B1A45371CCCAB55002BC53A /* Main.storyboard in Resources */,
@@ -145,13 +330,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B1A45851CCCAD86002BC53A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"run build phase DeepStorm shell Script\"\n\nsrcPath=\"$PROJECT_DIR/$PROJECT_NAME/DS_ECreds.plist\";\ndestEncFilePath=\"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/DS_ECreds.enc\"\n\ndestSrcFileDirPath=\"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/\"\nsrcFileName=\"DS_ECreds.plist\"\n\necho \"srcPath: $srcPath\"\necho \"destPath: $destEncFilePath\"\n\nopenssl aes-256-cbc -e -K D8578EDF8458CE06FBC5BB76A58C5CA4D8578EDF8458CE06FBC5BB76A58C5CA4 -iv 1234567890abcdef1234567890abcdef -in $srcPath -out $destEncFilePath\ncd\ncd $destSrcFileDirPath\nrm $srcFileName\n\n";
+		};
+		6E8CE19CC6CDA0E443682D19 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3FE11F5AE486EFB4B34EB23 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReporterProject/Pods-ReporterProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3184095AB3B0E0C1A5DF6C5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReporterProject/Pods-ReporterProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B1A45251CCCAB54002BC53A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1A455D1CCCABE1002BC53A /* DSJournal.m in Sources */,
+				6B1A457E1CCCAC3D002BC53A /* UIWindow+DSControllerDetermination.m in Sources */,
+				6B1A45841CCCAC45002BC53A /* DSNetworkReporter.m in Sources */,
+				6B1A45671CCCABF9002BC53A /* DSJournalJSONMapper.m in Sources */,
 				6B1A45341CCCAB55002BC53A /* ViewController.m in Sources */,
+				6B1A45681CCCABF9002BC53A /* DSJournalStringDescriptor.m in Sources */,
+				6B1A457D1CCCAC3D002BC53A /* NSString+DSEmailValidation.m in Sources */,
+				6B1A45701CCCAC22002BC53A /* DSFileReporter.m in Sources */,
+				6B1A45571CCCABD7002BC53A /* DSServiceManager.m in Sources */,
 				6B1A45311CCCAB55002BC53A /* AppDelegate.m in Sources */,
+				6B1A45661CCCABF9002BC53A /* DSJournalXMLMapper.m in Sources */,
+				6B1A45591CCCABD7002BC53A /* DSExternalJournalCloud.m in Sources */,
+				6B1A45831CCCAC45002BC53A /* DSRemoteTelnetReporter.m in Sources */,
+				6B1A45581CCCABD7002BC53A /* DSBaseLoggedService.m in Sources */,
+				6B1A454C1CCCAB8A002BC53A /* README.md in Sources */,
+				6B1A456F1CCCAC22002BC53A /* DSOutputConsoleReporter.m in Sources */,
+				6B1A457B1CCCAC3D002BC53A /* DSEmailReporter.m in Sources */,
 				6B1A452E1CCCAB55002BC53A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +525,7 @@
 		};
 		6B1A45411CCCAB55002BC53A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC638E1CD6374851AFBF1EF /* Pods-ReporterProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReporterProject/Info.plist;
@@ -275,6 +537,7 @@
 		};
 		6B1A45421CCCAB55002BC53A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7F98BEB7A162F1C8CAF796 /* Pods-ReporterProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReporterProject/Info.plist;
@@ -303,6 +566,7 @@
 				6B1A45421CCCAB55002BC53A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
