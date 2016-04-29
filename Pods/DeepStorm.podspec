@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = 'DeepStorm'
-  spec.version      = '1.0.7'
+  spec.version      = '1.0.9'
   spec.summary      = 'DeepStorm provides Logging, Journalling, Reporting and Module/Service Management'
 
 

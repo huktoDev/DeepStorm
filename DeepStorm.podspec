@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = 'DeepStorm'
-  spec.version      = '1.0.7'
+  spec.version      = '1.0.8'
   spec.summary      = 'DeepStorm provides Logging, Journalling, Reporting and Module/Service Management'
 
 
@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
   spec.frameworks = 'MessageUI', 'UIKit'
 
   spec.source_files = 'ReporterProject/DeepStorm/**/*.*'
-  spec.exclude_files = ['ReporterProject/DeepStorm/DSIdeaHeader.h, ReporterProject/DeepStorm/Reporting/Custom Reporters/Email Reporters/DSEmailHiddenReporter.h']
+  spec.exclude_files = ['ReporterProject/DeepStorm/DSIdeaHeader.h', 'ReporterProject/DeepStorm/Reporting/Custom Reporters/Email Reporters/DSEmailHiddenReporter.h']
   spec.public_header_files = 'ReporterProject/DeepStorm/**/*.h'
 
 # 'ReporterProject/DeepStorm/Reporting/Custom Reporters/Email Reporters/DSEmailHiddenReporter.*'

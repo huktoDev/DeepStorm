@@ -55,6 +55,8 @@ DSExperimentServices experimentalBlock = nil;
 - (instancetype)initSharedManager{
     if(self = [super init]){
         
+        SharedServiceManager = self;
+        
         Class baseClass = [DSServiceManager class];
         Class currentClass = [self class];
         SEL createSelector = @selector(createServices);
@@ -103,8 +105,6 @@ DSExperimentServices experimentalBlock = nil;
             }
 #endif
         }
-        
-        SharedServiceManager = self;
     }
     return self;
 }
