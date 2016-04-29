@@ -25,7 +25,7 @@
 #import "DSEmailReporterProtocol.h"
 #import "DSJournalMappingProtocol.h"
 
-#import <MailCore/MailCore.h>
+//#import <MailCore/MailCore.h>
 
 /**
     <hr>
