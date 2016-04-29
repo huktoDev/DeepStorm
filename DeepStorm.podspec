@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = 'DeepStorm'
-  spec.version      = '1.0.6'
+  spec.version      = '1.0.7'
   spec.summary      = 'DeepStorm provides Logging, Journalling, Reporting and Module/Service Management'
 
 
@@ -32,15 +32,17 @@ Pod::Spec.new do |spec|
   spec.frameworks = 'MessageUI', 'UIKit'
 
   spec.source_files = 'ReporterProject/DeepStorm/**/*.*'
-  spec.exclude_files = ['ReporterProject/DeepStorm/DSIdeaHeader.h']
+  spec.exclude_files = ['ReporterProject/DeepStorm/DSIdeaHeader.h, ReporterProject/DeepStorm/Reporting/Custom Reporters/Email Reporters/DSEmailHiddenReporter.h']
   spec.public_header_files = 'ReporterProject/DeepStorm/**/*.h'
 
 # 'ReporterProject/DeepStorm/Reporting/Custom Reporters/Email Reporters/DSEmailHiddenReporter.*'
 
   spec.dependency 'GDataXML-HTML', '~> 1.3.0'
-  spec.dependency 'mailcore2-ios'
+
+  #spec.dependency 'mailcore2-ios'
   
-  spec.ios.vendored_libraries = 'libMailCore-ios.a'
+  #spec.ios.vendored_libraries = 'libMailCore-ios.a'
+
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
