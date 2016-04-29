@@ -79,8 +79,6 @@
 		6B1A45A61CCCB17C002BC53A /* DSOutputConsoleReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSOutputConsoleReporter.m; path = "DeepStorm/Reporting/Custom Repoters/DSOutputConsoleReporter.m"; sourceTree = "<group>"; };
 		6B1A45A71CCCB17C002BC53A /* DSRemoteTelnetReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSRemoteTelnetReporter.h; path = "DeepStorm/Reporting/Custom Repoters/DSRemoteTelnetReporter.h"; sourceTree = "<group>"; };
 		6B1A45A81CCCB17C002BC53A /* DSRemoteTelnetReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSRemoteTelnetReporter.m; path = "DeepStorm/Reporting/Custom Repoters/DSRemoteTelnetReporter.m"; sourceTree = "<group>"; };
-		6B1A45AD1CCCB1A0002BC53A /* DSEmailHiddenReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSEmailHiddenReporter.h; path = "DeepStorm/Reporting/Custom Repoters/Email Reporters/DSEmailHiddenReporter.h"; sourceTree = "<group>"; };
-		6B1A45AE1CCCB1A0002BC53A /* DSEmailHiddenReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSEmailHiddenReporter.m; path = "DeepStorm/Reporting/Custom Repoters/Email Reporters/DSEmailHiddenReporter.m"; sourceTree = "<group>"; };
 		6B1A45AF1CCCB1A0002BC53A /* DSEmailReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSEmailReporter.h; path = "DeepStorm/Reporting/Custom Repoters/Email Reporters/DSEmailReporter.h"; sourceTree = "<group>"; };
 		6B1A45B01CCCB1A0002BC53A /* DSEmailReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSEmailReporter.m; path = "DeepStorm/Reporting/Custom Repoters/Email Reporters/DSEmailReporter.m"; sourceTree = "<group>"; };
 		6B1A45B11CCCB1A0002BC53A /* DSEmailReporterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSEmailReporterProtocol.h; path = "DeepStorm/Reporting/Custom Repoters/Email Reporters/DSEmailReporterProtocol.h"; sourceTree = "<group>"; };
@@ -230,8 +228,6 @@
 				6B1A45B11CCCB1A0002BC53A /* DSEmailReporterProtocol.h */,
 				6B1A45AF1CCCB1A0002BC53A /* DSEmailReporter.h */,
 				6B1A45B01CCCB1A0002BC53A /* DSEmailReporter.m */,
-				6B1A45AD1CCCB1A0002BC53A /* DSEmailHiddenReporter.h */,
-				6B1A45AE1CCCB1A0002BC53A /* DSEmailHiddenReporter.m */,
 				6B1A45B21CCCB1A0002BC53A /* NSString+DSEmailValidation.h */,
 				6B1A45B31CCCB1A0002BC53A /* NSString+DSEmailValidation.m */,
 				6B1A45B41CCCB1A0002BC53A /* UIWindow+DSControllerDetermination.h */,
